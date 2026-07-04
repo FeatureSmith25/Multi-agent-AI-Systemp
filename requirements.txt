@@ -1,0 +1,72 @@
+# ===========================
+# Core LangChain
+# ===========================
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langgraph
+
+# ===========================
+# OpenAI
+# ===========================
+openai
+
+# ===========================
+# Search Tool
+# ===========================
+tavily-python
+
+# ===========================
+# Web Scraping
+# ===========================
+beautifulsoup4
+lxml
+requests
+
+# ===========================
+# Environment Variables
+# ===========================
+python-dotenv
+
+# ===========================
+# Token Counting
+# ===========================
+tiktoken
+
+# ===========================
+# Data Validation
+# ===========================
+pydantic
+
+# ===========================
+# Streamlit UI
+# ===========================
+streamlit
+
+# ===========================
+# Parsing & Utilities
+# ===========================
+markdown
+html2text
+
+# ===========================
+# Async Support
+# ===========================
+aiohttp
+
+# ===========================
+# Logging / Rich Console
+# ===========================
+rich
+
+# ===========================
+# Optional Data Handling
+# ===========================
+pandas
+numpy
+
+# ===========================
+# Typing Support
+# ===========================
+typing_extensions
