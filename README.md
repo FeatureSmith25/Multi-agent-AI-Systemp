@@ -29,6 +29,12 @@ It does not use Ollama, a hosted language model, or paid API keys. The answer is
 
 No `.env` file is required. The command-line version is also available with `python pipeline.py`.
 
+## Deploy to Render
+
+The repository includes a `render.yaml` Blueprint for a free Python web service. Commit and push your changes, then in Render choose **New → Blueprint**, connect the GitHub repository, and deploy the `researchmind-rag` service. Render will install `requirements.txt`, start Uvicorn on Render's assigned port, and check `/api/health`.
+
+No environment variables or API keys are needed. Free Render services can sleep when idle and may take about a minute to wake on the next request.
+
 ## API
 
 - `GET /api/health` reports whether the app is running.
